@@ -13,14 +13,12 @@ import java.sql.SQLException;
  * @author JoseD
  */
 public class conection {
-    private static final String URL = "jdbc:mysql://localhost:3306/calculadora_db";
-    private static final String USER = "root";  // tu usuario de MySQL
-    private static final String PASS = "JoseD2025!**"; // tu contraseña de MySQL
+private static final String URL = "jdbc:sqlite:src/database/calculadora_db.db";
 
     public static Connection conectar() {
         Connection con = null;
         try {
-            con = DriverManager.getConnection(URL, USER, PASS);
+            con = DriverManager.getConnection(URL);
             System.out.println("Conexión exitosa a MySQL");
         } catch (SQLException e) {
             e.printStackTrace();
