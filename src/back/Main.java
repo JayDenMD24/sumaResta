@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package back;
-// JEJEJE
+// ESTE ES UN MENSAJE DE PRUEBA
 import front.MenuPrincipal;
 import com.formdev.flatlaf.themes.FlatMacLightLaf;
 
