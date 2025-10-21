@@ -5,7 +5,7 @@
 package back;
 // ESTE ES UN MENSAJE DE PRUEBA
 import front.MenuPrincipal;
-import com.formdev.flatlaf.themes.FlatMacLightLaf;
+import com.formdev.flatlaf.themes.FlatMacDarkLaf;
 
 /**
  *
@@ -14,7 +14,7 @@ import com.formdev.flatlaf.themes.FlatMacLightLaf;
 public class Main {
 
     public static void main(String[] args) {
-        FlatMacLightLaf.setup();
+        FlatMacDarkLaf.setup();
 
         MenuPrincipal mp = new MenuPrincipal();
         mp.setLocationRelativeTo(null);
